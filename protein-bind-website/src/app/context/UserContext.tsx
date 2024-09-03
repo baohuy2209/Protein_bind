@@ -7,6 +7,7 @@ import {
 } from "react";
 import { useSession } from "next-auth/react";
 import { getUserByEmail } from "@/lib/actions/user.actions";
+
 const UserContext = createContext<any>(null);
 export const UserProvider = ({ children }: { children: ReactNode }) => {
   const { data: session } = useSession();
@@ -14,9 +15,10 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
     firstName: "John",
     lastName: "Doe",
     photo: "/images/user/user-01.png",
-    jobTitle: "Drug Research",
+    jobTitle: "Drug Researcher",
     userBio: "",
   });
+
   useEffect(() => {
     const fetchUser = async () => {
       if (session?.user?.email) {
@@ -32,6 +34,8 @@ export const UserProvider = ({ children }: { children: ReactNode }) => {
     };
     fetchUser();
   }, [session?.user?.email]);
+
   return <UserContext.Provider value={user}>{children}</UserContext.Provider>;
 };
+
 export const useUser = () => useContext(UserContext);
