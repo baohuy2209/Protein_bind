@@ -11,25 +11,25 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/auth-page/signup/page": [
+    "/verify-email/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/auth-page/signup/page.js"
-    ],
-    "/auth-page/signin/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/auth-page/signin/page.js"
+      "static/chunks/app/verify-email/page.js"
     ],
     "/forget-password/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/forget-password/page.js"
     ],
-    "/verify-email/page": [
+    "/reset-password/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/verify-email/page.js"
+      "static/chunks/app/reset-password/page.js"
+    ],
+    "/model/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/model/page.js"
     ]
   }
 }

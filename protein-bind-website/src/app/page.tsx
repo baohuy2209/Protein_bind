@@ -5,12 +5,15 @@ export const metadata: Metadata = {
   title: "Protein Bind: a leading research platform for drug dicovery",
   description: "this is a desccription for protein bind",
 };
+import { SessionProvider } from "next-auth/react";
 export default function Home() {
   return (
     <>
-      <DefaultLayout>
-        <Index />
-      </DefaultLayout>
+      <SessionProvider>
+        <DefaultLayout>
+          <Index />
+        </DefaultLayout>
+      </SessionProvider>
     </>
   );
 }
