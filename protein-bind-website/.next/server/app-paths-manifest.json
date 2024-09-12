@@ -1,8 +1,8 @@
 {
   "/page": "app/page.js",
-  "/verify-email/page": "app/verify-email/page.js",
-  "/reset-password/page": "app/reset-password/page.js",
-  "/forget-password/page": "app/forget-password/page.js",
+  "/message/page": "app/message/page.js",
+  "/settings/page": "app/settings/page.js",
+  "/molecule-bank/page": "app/molecule-bank/page.js",
   "/model/page": "app/model/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/profile/page": "app/profile/page.js"
 }

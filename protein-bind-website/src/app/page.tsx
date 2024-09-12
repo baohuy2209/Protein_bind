@@ -9,11 +9,11 @@ import { SessionProvider } from "next-auth/react";
 export default function Home() {
   return (
     <>
-      <SessionProvider>
-        <DefaultLayout>
-          <Index />
-        </DefaultLayout>
-      </SessionProvider>
+      {/* <SessionProvider> */}
+      <DefaultLayout>
+        <Index />
+      </DefaultLayout>
+      {/* </SessionProvider> */}
     </>
   );
 }
