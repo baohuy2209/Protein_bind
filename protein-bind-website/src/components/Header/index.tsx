@@ -1,13 +1,14 @@
-import Link from "next/link";
+import { Button } from "../ui/button";
 import DarkModeSwitcher from "./DarkModeSwitcher";
 import DropdownMessage from "./DropdownMessage";
 import DropdownUser from "./DropdownUser";
-import Image from "next/image";
 import { SearchIcon } from "lucide-react";
+import { useSession } from "next-auth/react";
 const Header = (props: {
   sidebarOpen: string | boolean | undefined;
   setSidebarOpen: (arg0: boolean) => void;
 }) => {
+  const { data: session } = useSession();
   return (
     <header className="sticky top-0 z-999 flex w-full bg-white drop-shadow-1 darh:bg-[#121212] dark:drop-shadow-xl">
       <div className="flex flex-grow items-center justify-between px-4 py-4 shadow-2 md:px-6 2xl:px-11">
@@ -62,7 +63,14 @@ const Header = (props: {
           <ul className="flex items-center gap-2 2xsm:gap-4">
             <DropdownMessage />
           </ul>
-          <DropdownUser />
+          {session ? (
+            <DropdownUser />
+          ) : (
+            <div className="flex flex-rows gap-2">
+              <Button>Sign In</Button>
+              <Button variant="outline">Sign Out</Button>
+            </div>
+          )}
         </div>
       </div>
     </header>
