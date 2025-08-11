@@ -1,6 +1,5 @@
 {
-  "/settings/page": "app/settings/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/profile/page": "app/profile/page.js",
-  "/message/page": "app/message/page.js"
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
 }
