@@ -11,20 +11,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/molecule-bank/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/molecule-bank/page.js"
-    ],
     "/message/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/message/page.js"
-    ],
-    "/model/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/model/page.js"
     ],
     "/settings/page": [
       "static/chunks/webpack.js",

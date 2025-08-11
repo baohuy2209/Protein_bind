@@ -5,7 +5,7 @@ export async function POST(request: Request) {
   const { firstName, email, verificationUrl } = await request.json();
   try {
     const { data, error } = await resend.emails.send({
-      from: "ProteinBind <onboarding@resend.dev>",
+      from: "huynguyen002311@gmail.com",
       to: [email],
       subject: "Verify your email",
       react: VerifyEmailTemplate({ firstName, verificationUrl }),

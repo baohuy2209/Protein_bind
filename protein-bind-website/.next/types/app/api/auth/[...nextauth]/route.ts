@@ -1,4 +1,4 @@
-// File: C:\Users\ADMIN\OneDrive\Hình ảnh\Tài liệu\GitHub\Protein_bind\protein-bind-website\src\app\api\auth\[...nextauth]\route.ts
+// File: C:\Users\ADMIN\BAOHUY\Protein_bind\protein-bind-website\src\app\api\auth\[...nextauth]\route.ts
 import * as entry from '../../../../../../src/app/api/auth/[...nextauth]/route.js'
 import type { NextRequest } from 'next/server.js'
 

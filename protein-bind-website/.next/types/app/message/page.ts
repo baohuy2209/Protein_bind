@@ -1,4 +1,4 @@
-// File: C:\Users\ADMIN\OneDrive\Hình ảnh\Tài liệu\GitHub\Protein_bind\protein-bind-website\src\app\message\page.jsx
+// File: C:\Users\ADMIN\BAOHUY\Protein_bind\protein-bind-website\src\app\message\page.jsx
 import * as entry from '../../../../src/app/message/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
