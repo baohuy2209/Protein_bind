@@ -2,85 +2,125 @@
   "node": {
     "1fcdcc863111e35b3c6d273f35e86571284a034c": {
       "workers": {
+        "app/auth-page/signup/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
+        "app/verify-email/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
         "app/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/auth-page/signup/page": "action-browser",
+        "app/verify-email/page": "action-browser",
         "app/page": "action-browser"
       }
     },
     "52df80de9a9ce3bf531547bc040fe019b8845852": {
       "workers": {
+        "app/auth-page/signup/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
+        "app/verify-email/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
         "app/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/auth-page/signup/page": "action-browser",
+        "app/verify-email/page": "action-browser",
         "app/page": "action-browser"
       }
     },
     "84e7e69e70613e666bb0ba3c862a1205d3291e39": {
       "workers": {
+        "app/auth-page/signup/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
+        "app/verify-email/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
         "app/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/auth-page/signup/page": "action-browser",
+        "app/verify-email/page": "action-browser",
         "app/page": "action-browser"
       }
     },
     "a28e3a0b199d76b5f475a485e4815dd808986890": {
       "workers": {
+        "app/auth-page/signup/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
+        "app/verify-email/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
         "app/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/auth-page/signup/page": "action-browser",
+        "app/verify-email/page": "action-browser",
         "app/page": "action-browser"
       }
     },
     "b6c6d8d9c2301b030bfe04ce72e29b9f729fe07a": {
       "workers": {
+        "app/auth-page/signup/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
+        "app/verify-email/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
         "app/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/auth-page/signup/page": "action-browser",
+        "app/verify-email/page": "action-browser",
         "app/page": "action-browser"
       }
     },
     "bcf8f5e590626dca355a0d3c0c33f800398ea951": {
       "workers": {
+        "app/auth-page/signup/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
+        "app/verify-email/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
         "app/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/auth-page/signup/page": "action-browser",
+        "app/verify-email/page": "action-browser",
         "app/page": "action-browser"
       }
     },
     "be51fbd7aa3200abbb09fc4591d07866db8f58e8": {
       "workers": {
+        "app/auth-page/signup/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
+        "app/verify-email/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
         "app/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/auth-page/signup/page": "action-browser",
+        "app/verify-email/page": "action-browser",
         "app/page": "action-browser"
       }
     },
     "d8a0da6d57389426ffe41519996e7261732df023": {
       "workers": {
+        "app/auth-page/signup/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
+        "app/verify-email/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
         "app/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/auth-page/signup/page": "action-browser",
+        "app/verify-email/page": "action-browser",
         "app/page": "action-browser"
       }
     },
     "e98cbb45a7fdb879936beac364f69604e86ec553": {
       "workers": {
+        "app/auth-page/signup/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
+        "app/verify-email/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
         "app/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/auth-page/signup/page": "action-browser",
+        "app/verify-email/page": "action-browser",
         "app/page": "action-browser"
       }
     },
     "fdb820986f4d48a3117e68f75426b1e1c0bf3df3": {
       "workers": {
+        "app/auth-page/signup/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
+        "app/verify-email/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!",
         "app/page": "(action-browser)/./node_modules/.pnpm/next@14.2.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CADMIN%5C%5CBAOHUY%5C%5CProtein_bind%5C%5Cprotein-bind-website%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Cuser.actions.ts%22%2C%5B%22updateCredits%22%2C%22requestPasswordReset%22%2C%22getUserById%22%2C%22loginUser%22%2C%22updateUser%22%2C%22deleteUser%22%2C%22createUser%22%2C%22verifyEmail%22%2C%22resetPassword%22%2C%22getUserByEmail%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/auth-page/signup/page": "action-browser",
+        "app/verify-email/page": "action-browser",
         "app/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "mJNPABWKjAtQkBE7di2j2BxRNMoWerfTsdJjiPpj+2M="
+  "encryptionKey": "drg5EwTqDBpMhbFORrkJkzoPsbbGRANyYNUozEtyaVY="
 }

@@ -393,14 +393,13 @@ const SignUp: React.FC = () => {
                     Bio
                   </label>
                   <div className="relative">
-                    <input
-                      type="text"
-                      name="bio"
+                    <textarea
+                      name="userBio"
                       value={user.userBio}
                       onChange={handleInputChange}
                       placeholder="Enter your bio"
-                      className="w-full h-30 text-black rounded-lg border border-stroke bg-transparent py-4 pl-6 pr-10 text-black outline-none focus:border-primary focus-visible:shadow-none dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
-                    />
+                      className="w-full h-30 rounded-lg border border-stroke bg-transparent py-4 pl-6 pr-10 text-black outline-none focus:border-primary focus-visible:shadow-none dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
+                    ></textarea>
                   </div>
                 </div>
 

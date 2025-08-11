@@ -15,7 +15,7 @@ const UserSchema = new Schema(
       type: String,
       required: true,
     },
-    firstname: { type: String },
+    firstName: { type: String },
     lastName: { type: String },
     password: {
       type: String,
@@ -25,7 +25,7 @@ const UserSchema = new Schema(
       type: Boolean,
       default: false,
     },
-    useBio: {
+    userBio: {
       type: String,
       default: "",
     },

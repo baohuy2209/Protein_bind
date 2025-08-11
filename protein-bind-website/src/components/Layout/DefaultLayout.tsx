@@ -12,22 +12,22 @@ export default function DefaultLayout({
 }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  // const { data: session, status } = useSession();
-  // const router = useRouter();
-  // const pathname = usePathname();
+  const { data: session, status } = useSession();
+  const router = useRouter();
+  const pathname = usePathname();
 
-  // const publicRoutes = [
-  //   "/auth-page/signin",
-  //   "/auth-page/signup",
-  //   "/verify-email",
-  //   "/reset-password",
-  // ];
+  const publicRoutes = [
+    "/auth-page/signin",
+    "/auth-page/signup",
+    "/verify-email",
+    "/reset-password",
+  ];
 
-  // useLayoutEffect(() => {
-  //   if (status === "unauthenticated" && !publicRoutes.includes(pathname)) {
-  //     router.push("/auth-page/signin");
-  //   }
-  // }, [status, router, pathname]);
+  useLayoutEffect(() => {
+    if (status === "unauthenticated" && !publicRoutes.includes(pathname)) {
+      router.push("/auth-page/signin");
+    }
+  }, [status, router, pathname]);
 
   return (
     <>
@@ -45,11 +45,3 @@ export default function DefaultLayout({
     </>
   );
 }
-/**
- * 
- * ! Children là phần mình truyền vào giữa thẻ đó. Ví dụ: 
- *  <DefaultLayout>
-     <h1>Home Page</h1>
-    </DefaultLayout>
- * Lúc này chilaren là <h1>Home Page</h1>. 
- */

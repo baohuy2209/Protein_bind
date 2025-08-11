@@ -5,7 +5,6 @@ export const metadata: Metadata = {
   title: "Protein Bind: a leading research platform for drug dicovery",
   description: "This is a desccription for protein bind",
 };
-import { SessionProvider } from "next-auth/react";
 export default function Home() {
   return (
     <>

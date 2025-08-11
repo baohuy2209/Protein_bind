@@ -1,3 +1,5 @@
+import { handleError } from "../utils";
+
 export async function sendVerificationEmail(
   email: string,
   firstName: string,
